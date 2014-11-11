@@ -9,6 +9,7 @@ the last argument is the last available function
 
 calling the next function will (unsurprisingly) call the next function in the list  
 calling the done function will (also unsurprisingly) call the last function  
+...unless the function is the last in the list, in which case next and done will both noop  
 
     var linker = require("swk-linker")
     linked = linker(
