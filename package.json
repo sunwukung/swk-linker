@@ -1,0 +1,36 @@
+{
+  "name": "swk-metaobject",
+  "version": "0.0.0",
+  "description": "library to support modular application structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sunwukung/matryoshka"
+  },
+  "author": "Marcus Kielly",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~1.9.2",
+    "coffee-loader": "~0.7.2",
+    "coffee-script": "~1.8.0",
+    "file-loader": "~0.7.2",
+    "gulp": "~3.8.8",
+    "gulp-coffee": "~2.2.0",
+    "gulp-coffeelint": "~0.4.0",
+    "gulp-log-capture": "0.0.6",
+    "gulp-mocha": "^1.1.1",
+    "gulp-open": "~0.3.0",
+    "gulp-plato": "~1.0.1",
+    "gulp-util": "~3.0.1",
+    "inverse": "^0.10.0",
+    "js-extend": "0.0.2",
+    "lodash": "~2.4.1",
+    "mocha": "~1.21.4",
+    "mocha-sinon": "~1.1.3",
+    "sinon": "~1.10.3",
+    "sinon-chai": "~2.6.0"
+  }
+}
