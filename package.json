@@ -1,14 +1,11 @@
 {
-  "name": "swk-metaobject",
-  "version": "0.0.0",
-  "description": "library to support modular application structure",
+  "name": "swk-linker",
+  "version": "0.0.1",
+  "description": "converts functions into middleware chained function",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sunwukung/matryoshka"
+    "url": "https://github.com/sunwukung/swk-linker"
   },
   "author": "Marcus Kielly",
   "license": "BSD-2-Clause",
@@ -25,12 +22,7 @@
     "gulp-open": "~0.3.0",
     "gulp-plato": "~1.0.1",
     "gulp-util": "~3.0.1",
-    "inverse": "^0.10.0",
-    "js-extend": "0.0.2",
-    "lodash": "~2.4.1",
     "mocha": "~1.21.4",
-    "mocha-sinon": "~1.1.3",
-    "sinon": "~1.10.3",
-    "sinon-chai": "~2.6.0"
+    "sinon": "~1.10.3"
   }
 }
